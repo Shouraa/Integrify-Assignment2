@@ -1,0 +1,184 @@
+body {
+  font-family: sans-serif, Arial, Helvetica;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 960px;
+  width: 75%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  background: #EEECED;
+  color: #867877;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#brand {
+  margin: 0 0 0 25px;
+}
+
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #9B8C8D;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  float:left;
+  display: inline;
+  padding: 0 20px 0 60px;
+}
+
+header #brand {
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin: 20px;
+}
+
+header .current a {
+  color: #CC3362;
+}
+
+/* Showcase */
+
+#showcase .container{
+  width: 100%;
+  max-height: 562px;
+}
+
+#showcase .main {
+  width: 100%;
+  vertical-align: middle;
+}
+
+#circles {
+  width: 156px;
+  height: 150px;
+  position: relative;
+  bottom: 190px;
+  left: 645px;
+}
+
+#showcase .circles_txt {
+  margin: 0;
+  position: relative;
+  bottom: 305px;
+  left: 682px;
+  font-size: 22px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  line-height: 0.1;
+}
+
+/* New Product Bar */
+#new_bar .container {
+  background-color: #E9E7E8;
+  height: 250px;
+  min-width: 960px;
+  display: flex;
+}
+
+#new_bar .txt {
+  padding: 20px 30px 20px 30px;
+  width: 60%;
+}
+
+#new_bar h3{
+	font-size: 17px;
+	color: #9B8C8D;
+  text-transform: uppercase;
+}
+
+ #new_bar h1 {
+   color: #E32A63;
+   margin-bottom: 20px;
+   font-size: 25px;
+   font-weight: bold;
+}
+
+#new_bar p{
+  font-size: 16px;
+	line-height: 1.6;
+	max-width: 620px;
+  color: #827677;
+}
+
+#glass_yog {
+  width: 40%;
+}
+
+/* Boxes */
+#infobar .container{
+  background-color: #C8C10E;
+  height: 150px;
+  min-width: 960px;
+  display: flex;
+}
+
+#infobar img {
+  padding-left: 15px;
+}
+
+.box {
+  margin-top: 20px;
+  width: 25%;
+  padding-left: 75px;
+  padding-top: 25px;
+}
+
+.box h3 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+#Boxes .box {
+  float: left;
+  padding: 10px;
+}
+
+/* Footer */
+#foot .container {
+  background-color: #CB3362;
+  height: 200px;
+  min-width: 960px;
+}
+
+#foot ul {
+  margin: 0;
+  padding: 0;
+}
+
+#foot li {
+  display: inline;
+  padding: 0 25px 0 0px;
+}
+
+#foot p {
+  color: white;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.media {
+  position: relative;
+  left: 370px;
+  bottom: -75px;
+}
